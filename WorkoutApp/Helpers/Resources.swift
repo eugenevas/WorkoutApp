@@ -24,6 +24,12 @@ enum Resources {
             static var progress = "Progress"
             static var settings = "Settings"
         }
+        
+        enum Session {
+            static var navBarLeft = "Pause"
+            static var navBarRight = "Finish"
+        }
+        
     }
     
     enum Images {
@@ -39,6 +45,7 @@ enum Resources {
         static func helveticaRegular(with mySize: CGFloat) -> UIFont {
             UIFont(name: "Helvetica", size: mySize) ?? UIFont()
         }
-        
     }
+    
+    
 }
