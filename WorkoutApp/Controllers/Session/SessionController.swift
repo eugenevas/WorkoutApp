@@ -13,7 +13,8 @@ class SessionController: BaseController {
         super.viewDidLoad()
         
         //чтобы название title and tabBarItem отличались
-        title = "High Intensity Cardio"
+//        title = "High Intensity Cardio"
+        title = Resources.Strings.NavBar.session
         navigationController?.tabBarItem.title = Resources.Strings.TabBar.session
         
         addNavBarButton(at: .left, with: Resources.Strings.Session.navBarLeft)

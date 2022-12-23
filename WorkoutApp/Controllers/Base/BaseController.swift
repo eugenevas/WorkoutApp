@@ -16,6 +16,8 @@ class BaseController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        addViews()
+        layoutViews()
         configure()
     }
     
@@ -24,12 +26,10 @@ class BaseController: UIViewController {
 
 @objc extension BaseController {
     
-    func addViews() {
-    }
+    func addViews() {}
     
     
-    func layoutViews() {
-    }
+    func layoutViews() {}
     
     func configure() {
         view.backgroundColor = Resources.Colors.background
