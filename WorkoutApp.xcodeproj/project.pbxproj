@@ -16,6 +16,8 @@
 		F91CE67B29183E5600142CBD /* UIColor + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91CE67A29183E5600142CBD /* UIColor + Extension.swift */; };
 		F91CE67E29183F0300142CBD /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = F91CE67D29183F0300142CBD /* Resources.swift */; };
 		F9454492295587510041D017 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9454491295587510041D017 /* SecondaryButton.swift */; };
+		F9454494295992760041D017 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9454493295992760041D017 /* OverviewNavBar.swift */; };
+		F9454496295992C80041D017 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9454495295992C80041D017 /* BaseView.swift */; };
 		F9BDCD562922C7B000C9B0E5 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BDCD552922C7B000C9B0E5 /* NavBarController.swift */; };
 		F9BDCD592923551200C9B0E5 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BDCD582923551200C9B0E5 /* BaseController.swift */; };
 		F9FC59572935C52E004CF835 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC59562935C52E004CF835 /* UIView + ext.swift */; };
@@ -36,6 +38,8 @@
 		F91CE67A29183E5600142CBD /* UIColor + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor + Extension.swift"; sourceTree = "<group>"; };
 		F91CE67D29183F0300142CBD /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 		F9454491295587510041D017 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		F9454493295992760041D017 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
+		F9454495295992C80041D017 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		F9BDCD552922C7B000C9B0E5 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		F9BDCD582923551200C9B0E5 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		F9FC59562935C52E004CF835 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
@@ -123,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				F9454491295587510041D017 /* SecondaryButton.swift */,
+				F9454493295992760041D017 /* OverviewNavBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 		F9FC59582935C717004CF835 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F9454495295992C80041D017 /* BaseView.swift */,
 				F91CE67729183D7800142CBD /* TabBarController.swift */,
 				F9BDCD552922C7B000C9B0E5 /* NavBarController.swift */,
 				F9BDCD582923551200C9B0E5 /* BaseController.swift */,
@@ -254,6 +260,7 @@
 			files = (
 				F9FC59622935C7E3004CF835 /* SettingsController.swift in Sources */,
 				F91CE666291839FC00142CBD /* OverviewController.swift in Sources */,
+				F9454494295992760041D017 /* OverviewNavBar.swift in Sources */,
 				F9FC59572935C52E004CF835 /* UIView + ext.swift in Sources */,
 				F91CE67829183D7800142CBD /* TabBarController.swift in Sources */,
 				F91CE662291839FC00142CBD /* AppDelegate.swift in Sources */,
@@ -263,6 +270,7 @@
 				F9BDCD562922C7B000C9B0E5 /* NavBarController.swift in Sources */,
 				F91CE67E29183F0300142CBD /* Resources.swift in Sources */,
 				F91CE664291839FC00142CBD /* SceneDelegate.swift in Sources */,
+				F9454496295992C80041D017 /* BaseView.swift in Sources */,
 				F9BDCD592923551200C9B0E5 /* BaseController.swift in Sources */,
 				F91CE67B29183E5600142CBD /* UIColor + Extension.swift in Sources */,
 			);
