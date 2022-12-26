@@ -149,6 +149,15 @@
 			path = WeekView;
 			sourceTree = "<group>";
 		};
+		F945449E2959D49C0041D017 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				F91CE67729183D7800142CBD /* TabBarController.swift */,
+				F9BDCD552922C7B000C9B0E5 /* NavBarController.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
 		F9BDCD57292354DA00C9B0E5 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,9 +173,8 @@
 		F9FC59582935C717004CF835 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F945449E2959D49C0041D017 /* Navigation */,
 				F9454495295992C80041D017 /* BaseView.swift */,
-				F91CE67729183D7800142CBD /* TabBarController.swift */,
-				F9BDCD552922C7B000C9B0E5 /* NavBarController.swift */,
 				F9BDCD582923551200C9B0E5 /* BaseController.swift */,
 			);
 			path = Base;
