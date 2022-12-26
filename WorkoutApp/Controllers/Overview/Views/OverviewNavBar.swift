@@ -12,13 +12,7 @@ final class OverviewNavBar: BaseView {
     private let titleLabel = UILabel()
     private let allWorkoutsButton = SecondaryButton()
     private let addButton = UIButton()
-    private let weekView: UIView = {
-        let weekView = UIView()
-        weekView.backgroundColor = .systemBlue.withAlphaComponent(0.9)
-        
-        
-        return weekView
-    }()
+    private let weekView = WeekView()
     
     
     //addBottomBorder здесь из-за того, что view ещё не знает свой frame
@@ -75,8 +69,8 @@ extension OverviewNavBar {
         ])
     }
     
-    override func configure() {
-        super.configure()
+    override func configureView() {
+        super.configureView()
         backgroundColor = .white
 
         titleLabel.text = Resources.Strings.NavBar.overview

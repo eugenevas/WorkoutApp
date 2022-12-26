@@ -18,6 +18,9 @@
 		F9454492295587510041D017 /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9454491295587510041D017 /* SecondaryButton.swift */; };
 		F9454494295992760041D017 /* OverviewNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9454493295992760041D017 /* OverviewNavBar.swift */; };
 		F9454496295992C80041D017 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9454495295992C80041D017 /* BaseView.swift */; };
+		F94544992959AE720041D017 /* WeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94544982959AE720041D017 /* WeekView.swift */; };
+		F945449B2959B1510041D017 /* WeekdayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945449A2959B1510041D017 /* WeekdayView.swift */; };
+		F945449D2959BE9B0041D017 /* Date + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F945449C2959BE9B0041D017 /* Date + ext.swift */; };
 		F9BDCD562922C7B000C9B0E5 /* NavBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BDCD552922C7B000C9B0E5 /* NavBarController.swift */; };
 		F9BDCD592923551200C9B0E5 /* BaseController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9BDCD582923551200C9B0E5 /* BaseController.swift */; };
 		F9FC59572935C52E004CF835 /* UIView + ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9FC59562935C52E004CF835 /* UIView + ext.swift */; };
@@ -40,6 +43,9 @@
 		F9454491295587510041D017 /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
 		F9454493295992760041D017 /* OverviewNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewNavBar.swift; sourceTree = "<group>"; };
 		F9454495295992C80041D017 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F94544982959AE720041D017 /* WeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekView.swift; sourceTree = "<group>"; };
+		F945449A2959B1510041D017 /* WeekdayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekdayView.swift; sourceTree = "<group>"; };
+		F945449C2959BE9B0041D017 /* Date + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date + ext.swift"; sourceTree = "<group>"; };
 		F9BDCD552922C7B000C9B0E5 /* NavBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavBarController.swift; sourceTree = "<group>"; };
 		F9BDCD582923551200C9B0E5 /* BaseController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseController.swift; sourceTree = "<group>"; };
 		F9FC59562935C52E004CF835 /* UIView + ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView + ext.swift"; sourceTree = "<group>"; };
@@ -119,6 +125,7 @@
 			children = (
 				F91CE67A29183E5600142CBD /* UIColor + Extension.swift */,
 				F9FC59562935C52E004CF835 /* UIView + ext.swift */,
+				F945449C2959BE9B0041D017 /* Date + ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -126,10 +133,20 @@
 		F9454490295587370041D017 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F94544972959AE5B0041D017 /* WeekView */,
 				F9454491295587510041D017 /* SecondaryButton.swift */,
 				F9454493295992760041D017 /* OverviewNavBar.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F94544972959AE5B0041D017 /* WeekView */ = {
+			isa = PBXGroup;
+			children = (
+				F94544982959AE720041D017 /* WeekView.swift */,
+				F945449A2959B1510041D017 /* WeekdayView.swift */,
+			);
+			path = WeekView;
 			sourceTree = "<group>";
 		};
 		F9BDCD57292354DA00C9B0E5 /* Controllers */ = {
@@ -258,6 +275,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F94544992959AE720041D017 /* WeekView.swift in Sources */,
+				F945449D2959BE9B0041D017 /* Date + ext.swift in Sources */,
 				F9FC59622935C7E3004CF835 /* SettingsController.swift in Sources */,
 				F91CE666291839FC00142CBD /* OverviewController.swift in Sources */,
 				F9454494295992760041D017 /* OverviewNavBar.swift in Sources */,
@@ -271,6 +290,7 @@
 				F91CE67E29183F0300142CBD /* Resources.swift in Sources */,
 				F91CE664291839FC00142CBD /* SceneDelegate.swift in Sources */,
 				F9454496295992C80041D017 /* BaseView.swift in Sources */,
+				F945449B2959B1510041D017 /* WeekdayView.swift in Sources */,
 				F9BDCD592923551200C9B0E5 /* BaseController.swift in Sources */,
 				F91CE67B29183E5600142CBD /* UIColor + Extension.swift in Sources */,
 			);
